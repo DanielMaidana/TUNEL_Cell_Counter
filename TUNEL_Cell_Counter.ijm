@@ -123,7 +123,6 @@ Dialog.addCheckbox("Red Cells (Texas Red, Cy5, AF594, AF647, etc)", true);
 Dialog.addHelp(Html);
 Dialog.show();
 
-//File.openDialog("Choose the file to Open:"); 
 Mic_Res = Dialog.getChoice();
 Native_Res = Dialog.getChoice();
 Native_Spatial_Scale = Dialog.getNumber();
