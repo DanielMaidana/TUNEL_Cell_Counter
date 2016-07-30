@@ -123,6 +123,7 @@ Dialog.addCheckbox("Red Cells (Texas Red, Cy5, AF594, AF647, etc)", true);
 Dialog.addHelp(Html);
 Dialog.show();
 
+//File.openDialog("Choose the file to Open:"); 
 Mic_Res = Dialog.getChoice();
 Native_Res = Dialog.getChoice();
 Native_Spatial_Scale = Dialog.getNumber();
@@ -681,7 +682,7 @@ function Manual_Red_Function() {
 	}
 	run("Fill Holes");
 	run("Watershed");
-	Red_ID_Thresholded = getImageID()
+	Red_ID_Thresholded = getImageID();
 	roiManager("Open", path2+"/Freehand Selection ROI.zip");
 	roiManager("Select", 0);
 	run("Clear Results");
