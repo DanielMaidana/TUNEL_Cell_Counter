@@ -797,7 +797,7 @@ function Results_Array() {
 	setResult("Cell Roundness", 0, Cell_Roundness);
 	setResult("ONL Area (mm2)", 0, ONL_Area_mm);
 	setResult("INL Area (mm2)", 0, INL_Area_mm);
-	setResult("Manual Area (mm2)", 0, Manual_Area_Value);
+	setResult("Manual Area (mm2)", 0, Manual_Area_mm);
 	setResult("Red Cells ONL (count)", 0, ONL_Red_Count);
 	setResult("Red Cells INL (count)", 0, INL_Red_Count);
 	setResult("Red Cells Manual Area (count)", 0, Manual_Red_Count);
